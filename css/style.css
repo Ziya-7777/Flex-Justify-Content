@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.main{
+    margin-top: 20px;
+    height: 500px;
+    background-color:  #565454;
+    color: white;
+    padding: 20px;
+}
+
+.main h2{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.box{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    color: black;
+    
+}
+
+.box1{
+    width: 80px;
+    height: 80px;
+    background-color: #dab582;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main nav ul{
+    padding: 10px 20px;
+}
+
+.main nav ul li{
+    padding:  0;
+}
+
+.box-1{
+    height: 200px;
+    background-color:#ffff6f;
+    display: flex;
+    justify-content: flex-end;
+     color: black;
+   padding: 1 rem; 
+}
+
+.box-2{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    justify-content: center;
+     color: black;
+}  
+
+.box-3{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+   justify-content: space-between;
+    color: black;
+}
+
+.box-4{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+}
+
+.box-5{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    color: black;
+}
+
+.box-6{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    color: black;
+}
+
+.box-7{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin: 1rem;
+}
+
+
+.box-8{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+}
+
+.box-9{
+    height: 250px;
+    background-color:#ffff6f;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin: 1rem;
+}
+
+.box-10{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1rem;
+}
+
+.box-11{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1rem;
+}
+
+.box-12{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    margin: 1rem;
+}
+
+.box-13{
+    height: 250px;
+    background-color: #ffff6f;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+}
+
+
+
