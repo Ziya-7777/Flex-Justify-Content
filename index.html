@@ -33,8 +33,8 @@
                 </div>
             </div>
         </div>
-
-       <div class="container">
+        
+        <div class="container">
         <div class="main" style="height: 400px;">
             <h2> Display : Flex (Parent Property) Justify-Content flex end </h2>
          <nav>
@@ -50,8 +50,8 @@
                     <div class="box1">3</div>
                     <div class="box1">4</div>
                 </div>
-            </div>
         </div>
+     </div>
 
          <div class="container">
         <div class="main" style="height: 400px;">
@@ -135,18 +135,266 @@
          <nav>
             <ul>
                 <li>
-                    The CSS align-items property sets the align self 
+                    The CSS align-items property sets the align-self value on all direct children as a group. In flexbox, the alignment of items on the cross axis. In grid layout, it controls the alignment of items on the block axis within their grid areas. 
                 </li>
                 
                  <h2> Display : Flex (Parent Property) Align : flex - start; </h2>
                 <li>
-                    
+                    The items are packed flush to each other toward the start edge of the alignment container in the appropriate axis.
                 </li>
                 
             </ul>
          </nav>
             <div class="box-6">
                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Justify-Content Align items : flex-end;</h2>
+         <nav>
+            <ul>
+                <li>
+                    The items are packed flush to each other toward the end edge of the alignment container in the appropriate axis.
+                </li>
+            </ul>
+        </nav>
+            <div class="box-7">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Justify-Content Align items : Stretch;</h2>
+         <nav>
+            <ul>
+                <li>
+                    If the items are smaller than alignment container, auto-sized items will be equally enlarged to fill the container, respecting the items width and height limits. 
+                </li>
+            </ul>
+        </nav>
+            <div class="box-8">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Justify-Content Align items : Base-line;</h2>
+         <nav>
+            <ul>
+                <li>
+                   All flex items are aligned such that their flex container baselines align. The item with the largest distance between its cross-start margin edge and its baseline is flushed with the cross-start edge of the line.
+                </li>
+            </ul>
+        </nav>
+            <div class="box-9">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content </h2>
+         <nav>
+            <ul>
+                <li>
+                    The CSS align-content property sets the distribution of space between and around content items along a flexbox's cross axis, or a grid or block-level element's block axis.
+                </li>
+                <li>
+                    The interactive example below uses grid lauout to demonstrate some of the values of this property. 
+                </li>
+                
+                 <h2> Display : Flex (Parent Property) Align-Content : flex - start; </h2>
+                <li>
+                    The items are packed flush to each other against the start edge of the alignment container in the cross axis.
+                </li>
+                
+            </ul>
+         </nav>
+            <div class="box-10">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : flex-end;</h2>
+         <nav>
+            <ul>
+                <li>
+                  The items are packed flush to each other against the edge of the alignment container in the cross axis.
+                </li>
+            </ul>
+        </nav>
+            <div class="box-11">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : center;</h2>
+         <nav>
+            <ul>
+                <li>
+                  The items are packed flush to each other in the center of the alignment container along the cross axis.
+                </li>
+            </ul>
+        </nav>
+            <div class="box-12">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : Stretch;</h2>
+         <nav>
+            <ul>
+                <li>
+                  If the combined size of the items along the cross axis is less than the size of the alignment container, any auto-sized have their size increased equally(not proportionally), while still respecting the constraints imposed by max-height/max-width (or equivalent functionality), so that the combined size exactly fills the alignment container along the cross axis. 
+                </li>
+            </ul>
+        </nav>
+            <div class="box-13">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : space-between;</h2>
+         <nav>
+            <ul>
+                <li>
+                 The items are evenly distributed within the alignment container along the cross axis. The spacing between each pair of adjacent items is the same. The first item is flush with the start edge of the alignment container in the cross axis, and the last item is flush with the end edge of the alignment container in the cross axis.
+                </li>
+            </ul>
+        </nav>
+            <div class="box-14">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : space-around;</h2>
+         <nav>
+            <ul>
+                <li>
+                  The items are evenly distributed within the alignment container along the cross axis. The spacing between each pair of adjacent items is the same. The empty space before the first and the last equals half of the space between each pair of adjacent items. 
+                    </li>
+            </ul>
+        </nav>
+            <div class="box-15">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="main">
+            <h2> Display : Flex (Parent Property) Align-Content : space-evenly;</h2>
+         <nav>
+            <ul>
+                <li>
+                  The items are evenly distributed within the alignment container along the cross axis. The spacing between each pair of adjacent items, the start edge and the first itrem, and the end edge and the last item, are all exactly the same. 
+                </li>
+            </ul>
+        </nav>
+            <div class="box-16">
+                    <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
+                    <div class="box1">2</div>
+                    <div class="box1">3</div>
+                    <div class="box1">4</div>
+                     <div class="box1">1</div>
                     <div class="box1">2</div>
                     <div class="box1">3</div>
                     <div class="box1">4</div>
